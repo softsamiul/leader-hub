@@ -137,7 +137,7 @@ h1, h2, h3, h4, h6{
     Trending Courses style  
 ----------------------------*/
 #trending-courses {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .courses {
     display: grid;
