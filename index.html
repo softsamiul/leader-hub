@@ -6,19 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader - hub</title>
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Header start -->
-    <header>
-        <div class="container">
+    <header class="header-section">
+        <div class="container header-bg-none">
             <div class="nav">
-                <a href="" class="brand">LeaderBoard</a>
+                <a href="" class="brand"><i class="fab fa-codiepie"></i>LeaderBoard</a>
                 <navbar>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Work</a></li>
+                        <li><a href="#">
+                                <img class="menu-profile-img" src="images/players/player-1.png" alt="">
+                            </a></li>
                     </ul>
                 </navbar>
             </div>
@@ -27,39 +35,49 @@
     <!-- header end -->
     <!-- Main area start -->
     <main>
-        <!-- Top players & Latest blogs section start -->
-        <section>
+        <!----------------------------------------------
+            Top players & Latest blogs section start 
+        ------------------------------------------------->
+        <section class="top-section">
             <div class="container">
-                <!-- Top players section start -->
+                <!-----------------------------
+                    Top players section start 
+                ----------------------------------->
+                <div class="top-players-header">
+                    <h2 class="top-players-title">Top Players</h2>
+                </div>
                 <div class="top-players">
                     <div class="players">
                         <div class="player">
                             <img src="images/players/player-1.png" alt="">
-                            <h3>Player-1</h3>
+                            <h3>Rocky Jam</h3>
                         </div>
                         <div class="player">
                             <img src="images/players/player-2.png" alt="">
-                            <h3>Player-2</h3>
+                            <h3>John Doe</h3>
                         </div>
                         <div class="player">
                             <img src="images/players/player-3.png" alt="">
-                            <h3>Player-3</h3>
+                            <h3>Pinky Rony</h3>
                         </div>
                         <div class="player">
                             <img src="images/players/player-4.png" alt="">
-                            <h3>Player-4</h3>
+                            <h3>Rony Kader</h3>
                         </div>
                         <div class="player">
                             <img src="images/players/player-5.png" alt="">
-                            <h3>Player-5</h3>
+                            <h3>JK Mahbub</h3>
                         </div>
                         <div class="player">
                             <img src="images/players/player-6.png" alt="">
-                            <h3>Player-6</h3>
+                            <h3>Gundux Bey</h3>
                         </div>
                     </div>
                 </div>
-                <!-- Latest blogs start -->
+                <hr class="horizondal-row">
+                <!------------------------------
+                    Latest blogs start 
+                ------------------------------------>
                 <div class="latest-blogs-header">
                     <h1 class="latest-blogs-title">Latest Blogs</h1>
                 </div>
@@ -71,6 +89,41 @@
                         <div class="blog-details">
                             <div class="blog-title">
                                 <h3>13 of my favourite UX/UI goddies</h3>
+                                <span>By</span> <span class="author">Samiul Islam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="blog-3 thumbnail">
+                        </div>
+                        <div class="blog-details">
+                            <div class="blog-title">
+                                <h3>Top 10 technology discovered in 2021</h3>
+                                By <span class="author">Samiul Islam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="blog-3 thumbnail">
+                        </div>
+                        <div class="blog-details">
+                            <div class="blog-title">
+                                <h3>UI cheat sheet:
+                                    list vs grids</h3>
+                                By <span class="author">Samiul Islam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blog-thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="blog-3 thumbnail">
+                        </div>
+                        <div class="blog-details">
+                            <div class="blog-title">
+                                <h3>7 typography tips
+                                    for interface design</h3>
                                 By <span class="author">Samiul Islam</span>
                             </div>
                         </div>
@@ -78,8 +131,95 @@
                 </div>
             </div>
         </section>
+        <!----------------------------
+            Trending courses start 
+        -------------------------------->
+        <section id="trending-courses">
+            <div class="container">
+                <div class="trending-courses-header">
+                    <h2 class="trending-courses-title">Trending Courses</h2>
+                </div>
+                <div class="courses">
+                    <div class="course">
+                        <div class="course-banner">
+                            <img src="images/courses/course-1.png" alt="Course 2 banner">
+                        </div>
+                        <div class="course-details">
+                            <h3 class="course-title">Complete React Development Zero to Pro</h3>
+                            <p class="course-instructor">Samiul Islam</p>
+                            <div class="course-info">
+                                <div class="course-rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="rating">4.5</span>
+                                </div>
+                                <div class="course-duration">
+                                    <i class="far fa-clock"></i>
+                                    <span>1:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-banner">
+                            <img src="images/courses/course-2.png" alt="Course 2 banner">
+                        </div>
+                        <div class="course-details">
+                            <h3 class="course-title">PowerPoint 2020 Master Powerpoint Cour</h3>
+                            <p class="course-instructor">Samiul Islam</p>
+                            <div class="course-info">
+                                <div class="course-rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="rating">4.5</span>
+                                </div>
+                                <div class="course-duration">
+                                    <i class="far fa-clock"></i>
+                                    <span>1:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-banner">
+                            <img src="images/courses/course-3.png" alt="Course 2 banner">
+                        </div>
+                        <div class="course-details">
+                            <h3 class="course-title">Complete JavaScript Development Series</h3>
+                            <p class="course-instructor">Samiul Islam</p>
+                            <div class="course-info">
+                                <div class="course-rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span class="rating">4.5</span>
+                                </div>
+                                <div class="course-duration">
+                                    <i class="far fa-clock"></i>
+                                    <span>1:30 hr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </section>
     </main>
+    <!----------------------------
+        Footer start 
+    -------------------------------->
+    <footer id="footer">
+        <p>Copyright &copy; Samiul Islam | All Right Reserved 2021</p>
+    </footer>
 </body>
 
 </html>

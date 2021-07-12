@@ -1,0 +1,207 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+    margin: 0;
+}
+a { 
+    text-decoration: none;
+}
+h1, h2, h3, h4, h6{
+    margin: 0;
+}
+.container {
+    width:  870px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+}
+/* -------------------------
+    Header styles  
+----------------------------  */
+.header-bg-none{
+    background-color: transparent;
+}
+.header-section {
+    background: #562EFF;
+    color: #fff;
+    padding: 48px 0;
+}
+.brand {
+    color: #fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.fa-codiepie {
+    margin-right: 15px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    margin-right: 35px;
+}
+.nav ul li:last-child{
+    margin-right: 0px;
+}
+.nav ul li a{
+    color: #fff;
+    font-size: 16px;
+}
+.menu-profile-img {
+    width: 51px;
+    height: 51px;
+}
+
+/* ----------------------------------------
+    Top players & Latest blogs style
+----------------------------------------*/
+.top-section {
+    padding-top: 35px;
+}
+.top-players-title, .latest-blogs-title, .trending-courses-title {
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+.player h3 {
+    font-size: 18px;
+}
+.horizondal-row {
+    border: 1px solid #D1D1D1;
+    margin: 25px 0;
+}
+
+/*--------------------------
+    Latest blogs style  
+----------------------------*/
+.latest-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-row-gap: 25px;
+}
+.blog {
+    display: flex;
+}
+.blog-thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+.blog-details {
+    padding: 0px 16px;
+}
+.blog-title h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.blog-title span{
+    color: #9F9F9F;
+}
+.blog-title .author{
+    color: #562EFF;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*--------------------------
+    Trending Courses style  
+----------------------------*/
+#trending-courses {
+    margin-top: 20px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.course{
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.02);
+    padding: 10px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-title{
+    font-size: 20px;
+    color: #1E1E1E;
+    font-weight: 500;
+}
+.course-instructor {
+    color: #ED6B4F;
+    font-size: 14px;
+}
+.course-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.filled {
+    color: #FFC014;
+    font-size: 12px;
+}
+.empty{
+    font-size: 12px;
+    color: #AEAEAE;
+}
+.course-rating span{
+    color: #A2A2A2;
+    font-size: 14px;
+}
+.course-duration {
+    border: 1px solid #FF4A60;
+    padding: 3px 10px;
+    border-radius: 50px;
+    color: #FF4A60;
+    background: #ff4a5f15;
+}
+.course-duration .fa-clock{
+    font-size: 14px;
+}
+.course-duration span {
+    font-size: 14px;
+}
+
+/*--------------------------
+    Footer style  
+----------------------------*/
+#footer{
+    background: #562EFF;
+    padding: 20px 0;
+}
+#footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
