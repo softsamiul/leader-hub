@@ -250,9 +250,13 @@ h1, h2, h3, h4, h6{
     .blog-details {
         padding: 0;
     }
+    .trending-courses-header{
+        padding-left: 30px;
+    }
     .courses {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
     }
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
@@ -282,8 +286,12 @@ h1, h2, h3, h4, h6{
     .latest-blogs-header{
         padding-left: 30px;
     }
+    .trending-courses-header{
+        padding-left: 30px;
+    }
     .courses {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
     }
 }
